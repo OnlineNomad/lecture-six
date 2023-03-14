@@ -27,3 +27,14 @@ const capitalizeFirst = string => {
 const text = "hi, my name is nizami uzunalovi";
 console.log(capitalizeFirst(text));
 // ------------------------------------------|
+
+
+// TASK THREE ------------------------------------>
+
+const sortByAge = (userArray) => {
+    return userArray.sort((a, b) => a.age - b.age);
+}
+
+const users = [{name:'Lasha', age:300}, {name:'Saba', age:200}, {name:'Gio', age:155}]
+console.log(sortByAge(users));
+// -----------------------------------|
